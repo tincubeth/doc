@@ -13,7 +13,11 @@
 
 ### Why? <a id="why"></a>
 
-Ethereum (as most blockchains) has a privacy problem. This needs to be attacked on multiple fronts. One of them was described by [Péter Szilágyi at Devcon4](https://www.youtube.com/watch?v=J1JenTo7oLE) If you are not aware of the full extend of the problem (e.g. you think mixers would solve the problem completely) Please watch this talk before reading on.
+Ethereum (as most blockchains) has a privacy problem. This needs to be attacked on multiple fronts. One of them was described by [Péter Szilágyi at Defull -> full verification
+44
+vcon4](https://www.youtube.com/watch?v=J1JenTo7oLE) If you are not aware of the full extend of the problem (e.g. you tfull -> full verification
+44
+hink mixers would solve the problem completely) Please watch this talk before reading on.
 
 ### What? <a id="what"></a>
 
@@ -29,6 +33,19 @@ and
 ```java
 setFinality(int val)
 ```
+
+and 
+
+```java
+setProof(Proof val)
+```
+
+where proof is defined as:
+
+* none -> No Verification
+* standard -> Standard Verification of the important properties
+* full -> full verification
+
 setMinDeposit will cost money and setFinality time
 
 for the anonymity slider we need new functions. Functions to enforce usage of onion transport and the reuse value. In the MAX_ANONYMITY you would use one server for one RPC call - in the MIN_RPC call you accept non onion nodes.
