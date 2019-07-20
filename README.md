@@ -1,18 +1,15 @@
 # tincubed
 
-## Table of Contents
+[INCUBED (IN3)](https://download.slock.it/whitepaper_incubed_draft.pdf)
+ with [Tor (Onion Services)](https://2019.www.torproject.org/docs/onion-services.html.en) support
 
-* [Intro](#intro)
+## TOC
+
 * [Why?](#why)
 * [What?](#what)
 * [How?](#how)
 * [More](#more)
 * [Links](#links)
-
-## Intro <a id="intro"></a>
-
-[INCUBED (IN3)](https://download.slock.it/whitepaper_incubed_draft.pdf)
- with [Tor (Onion Services)](https://2019.www.torproject.org/docs/onion-services.html.en) support
 
 ### Why? <a id="why"></a>
 
