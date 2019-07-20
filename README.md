@@ -13,11 +13,10 @@
 
 ### Why? <a id="why"></a>
 
-Ethereum (as most blockchains) has a privacy problem. This needs to be attacked on multiple fronts. One of them was described by [Péter Szilágyi at Defull -> full verification
-44
-vcon4](https://www.youtube.com/watch?v=J1JenTo7oLE) If you are not aware of the full extend of the problem (e.g. you tfull -> full verification
+Ethereum (as most blockchains) has a privacy problem. This needs to be attacked on multiple fronts. One of them was described by [Péter Szilágyi at DevCon4](https://www.youtube.com/watch?v=J1JenTo7oLE) If you are not aware of the full extend of the problem (e.g. you tfull -> full verification
 44
 hink mixers would solve the problem completely) Please watch this talk before reading on.
+For a wider scope look at the problem and modivation I also suggest the talk by [Cory Doctorow at DevCon4](https://www.youtube.com/watch?v=JE4yoU6ssi8)
 
 ### What? <a id="what"></a>
 
