@@ -19,8 +19,21 @@ Ethereum (as most blockchains) has a privacy problem. This needs to be attacked 
 
 This project intends to build one building block towards a solution. The specific problem this project tries to focus on is to reduce the amount of metadata leakage. E.g. combined with mixers this can provide some more anonymity than the current state of the art.
 It wants to do this by combinding onion services (most know them from Tor) with INCUBED. You basically get minimal verification services with an extra option for anonymity.
-In e.g. wallet UIs there can then be 2 settings exposed to the users (e.g. via a slider) - one for the security desired and one for the desired anonymity. Both are trade-offs. More security will cost you more and more anonymity might also cost you more and also make things slower.
-Wallets might also indicate which chains support tincubeth (and as a subset the ones that support plain incubed) in the chains they list. This could be a quality and resillience indicator.
+In e.g. wallet UIs there can then be 2 settings exposed to the users (e.g. via a slider) - one for the security desired and one for the desired anonymity. Both are trade-offs. More security will cost you more and more anonymity might also cost you more and also make things slower. The slider for security sets a value to INCUBED via:
+```java
+setMinDeposit(long val);
+```
+
+and
+
+```java
+setFinality(int val)
+```
+setMinDeposit will cost money and setFinality time
+
+for the anonymity slider we need new functions. Functions to enforce usage of onion transport and the reuse value. In the MAX_ANONYMITY you would use one server for one RPC call - in the MIN_RPC call you accept non onion nodes.
+
+Wallets might also indicate which chains support TincubETH (and as a subset the ones that support plain incubed) in the chains they list. This could be a quality and resillience indicator.
 
 ### How? <a id="how"></a>
 
