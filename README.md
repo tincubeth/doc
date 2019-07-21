@@ -13,15 +13,15 @@
 
 ### Why? <a id="why"></a>
 
-Ethereum (as most blockchains) has a privacy problem. This needs to be attacked on multiple fronts. One of them was described by [Péter Szilágyi at DevCon4](https://www.youtube.com/watch?v=J1JenTo7oLE) If you are not aware of the full extend of the problem (e.g. thing having some zk in your stack would solve the problem completely) Please watch this talk before reading on.
-For a wider scope look at the problem and modivation I also suggest the talk by [Cory Doctorow at DevCon4](https://www.youtube.com/watch?v=JE4yoU6ssi8).
+**Ethereum** (as most blockchains) has a **privacy problem**. This needs to be attacked on multiple fronts. One of them was described by [Péter Szilágyi at DevCon4](https://www.youtube.com/watch?v=J1JenTo7oLE) If you are not aware of the full extend of the problem (e.g. thing having some zk in your stack would solve the problem completely) Please watch this talk before reading on.
+For a wider scope look at the problem and motivation you should also see the talk by [Cory Doctorow at DevCon4](https://www.youtube.com/watch?v=JE4yoU6ssi8).
 These talks outlined the problem. The talk [INCUBED - A trustless incentivized decentralized remote node network by Christoph Jentzsch"](https://www.youtube.com/watch?v=Ig42qQHHI1Q) carried part of the solution.
 Already suggested way back [at Ethereum Magicians](https://ethereum-magicians.org/t/incubed-servers-as-onion-services/1798). But this [Flyig Circuit](https://flyingcircuit.com) was the perfect chance to dive into this.
 **TinCubETH** intents to be the **second best thing** you can do for your privacy. The best will still be running your own FullNode (which unfortunately is infeasible on e.g. phones for most chains)
 
 ### What? <a id="what"></a>
 
-This project intends to build one building block towards a solution. The specific problem this project tries to focus on is to reduce the amount of metadata leakage. E.g. combined with zktechnology this can provide some more anonymity than the current state of the art. Protecting your data on chain with zk technology is only one part of the medal. You are still not fully protected if you leak so much metadata on the way that you can still be deanonymized.
+This project intends to build one building block towards a solution. The specific problem this project tries to focus on is to **reduce** the **amount of metadata leakage**. E.g. combined with zk technology this can provide some more anonymity than the current state of the art. Protecting your data on chain with zk technology is only one part of the medal. You are still not fully protected if you leak so much metadata on the way that you can still be deanonymized.
 It wants to do this by combining onion services (most know them from Tor) with INCUBED. You basically get minimal verification services with an extra option for anonymity.
 In e.g. wallet UIs there can then be 2 settings exposed to the users (e.g. via a slider) - one for the security desired and one for the desired anonymity. Both are trade-offs. More security will cost you more and more anonymity might also cost you more and also make things slower. The slider for security sets a value to INCUBED via:
 ```java
@@ -48,9 +48,9 @@ where proof is defined as:
 
 setMinDeposit will cost money and setFinality time
 
-for the anonymity slider we need new functions. Functions to enforce usage of onion transport and the reuse value. In the MAX_ANONYMITY you would use one server for one RPC call - in the MIN_RPC call you accept non onion nodes.
+for the **anonymity slider** we need new functions. Functions to enforce usage of onion transport and the reuse value. In the MAX_ANONYMITY you would use one server for one RPC call - in the MIN_RPC call you accept non onion nodes.
 
-Wallets might also indicate which chains support TincubETH (and as a subset the ones that support plain incubed) in the chains they list. This could be a quality and resillience indicator.
+**Wallets might** also **indicate** which chains **support** TincubETH (and as a subset the ones that support plain incubed) in the chains they list. This could be a quality and resillience indicator.
 
 ### How? <a id="how"></a>
 
@@ -66,7 +66,7 @@ Then we need to modify the client so it can filter for these onion adresses and 
  
 ### More <a id="more"></a>
 
-As a drive by kill I think it also helps the resillience of the parent sytem. For big actors (like states) it is actually not that hard to attack a service like infura as it is well known. But it is quite hard to take down onion services as Silk Road nicely showed. Just instead of sending interesting physical packets - in this case we use it to transport interesting digital packets only.
+It not only helps with privacy - it **also helps the resillience** of the parent sytem. For big actors (like **states**) it is actually not that hard to **attack a service like infura** as it is well known. But it is quite hard to take down onion services as **Silk Road** nicely showed. Just instead of sending interesting physical packets - in this case we use it to transport interesting digital packets only.
 
 ## Links <a id="links"></a>
 
