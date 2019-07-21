@@ -17,8 +17,7 @@
 For a wider scope look at the problem and motivation you should also see the talk by [Cory Doctorow at DevCon4](https://www.youtube.com/watch?v=JE4yoU6ssi8).
 These talks outlined the problem. The talk [INCUBED - A trustless incentivized decentralized remote node network by Christoph Jentzsch"](https://www.youtube.com/watch?v=Ig42qQHHI1Q) carried part of the solution.
 Already suggested way back [at Ethereum Magicians](https://ethereum-magicians.org/t/incubed-servers-as-onion-services/1798). But this [Flyig Circuit](https://flyingcircuit.com) was the perfect chance to dive into this.
-**TinCubETH** intents to be the **second best thing** you can do for your privacy. The best will still be running your own FullNode (which unfortunately is infeasible on e.g. phones for most chains)
-Another good reason besides privacy is also that it strengthens 
+**TinCubETH** intents to be the **second best thing** you can do for your privacy. The best will still be running your own FullNode (which unfortunately is infeasible on e.g. phones for most chains) 
 
 ### What? <a id="what"></a>
 
