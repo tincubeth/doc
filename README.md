@@ -18,6 +18,7 @@ For a wider scope look at the problem and motivation you should also see the tal
 These talks outlined the problem. The talk [INCUBED - A trustless incentivized decentralized remote node network by Christoph Jentzsch"](https://www.youtube.com/watch?v=Ig42qQHHI1Q) carried part of the solution.
 Already suggested way back [at Ethereum Magicians](https://ethereum-magicians.org/t/incubed-servers-as-onion-services/1798). But this [Flyig Circuit](https://flyingcircuit.com) was the perfect chance to dive into this.
 **TinCubETH** intents to be the **second best thing** you can do for your privacy. The best will still be running your own FullNode (which unfortunately is infeasible on e.g. phones for most chains)
+Another good reason besides privacy is also that it strengthens 
 
 ### What? <a id="what"></a>
 
@@ -50,7 +51,11 @@ setMinDeposit will cost money and setFinality time
 
 for the **anonymity slider** we need new functions. Functions to enforce usage of onion transport and the reuse value. In the MAX_ANONYMITY you would use one server for one RPC call - in the MIN_RPC call you accept non onion nodes.
 
+You can see a visual example [here](https://github.com/walleth/walleth/issues/390)
+
 **Wallets might** also **indicate** which chains **support** TincubETH (and as a subset the ones that support plain incubed) in the chains they list. This could be a quality and resillience indicator.
+
+The mockup for this is [here](https://github.com/walleth/walleth/issues/389)
 
 ### How? <a id="how"></a>
 
