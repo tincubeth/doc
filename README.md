@@ -1,4 +1,4 @@
-# tincubed
+# TinCubETH
 
 [INCUBED (IN3)](https://download.slock.it/whitepaper_incubed_draft.pdf)
  with [Tor (Onion Services)](https://2019.www.torproject.org/docs/onion-services.html.en) support
