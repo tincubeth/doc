@@ -14,7 +14,8 @@
 ### Why? <a id="why"></a>
 
 Ethereum (as most blockchains) has a privacy problem. This needs to be attacked on multiple fronts. One of them was described by [Péter Szilágyi at DevCon4](https://www.youtube.com/watch?v=J1JenTo7oLE) If you are not aware of the full extend of the problem (e.g. you think mixers would solve the problem completely) Please watch this talk before reading on.
-For a wider scope look at the problem and modivation I also suggest the talk by [Cory Doctorow at DevCon4](https://www.youtube.com/watch?v=JE4yoU6ssi8)
+For a wider scope look at the problem and modivation I also suggest the talk by [Cory Doctorow at DevCon4](https://www.youtube.com/watch?v=JE4yoU6ssi8).
+These talks outlined the problem. The talk [INCUBED - A trustless incentivized decentralized remote node network by Christoph Jentzsch"](https://www.youtube.com/watch?v=Ig42qQHHI1Q) carried part of the solution.
 Already suggested way back [at Ethereum Magicians](https://ethereum-magicians.org/t/incubed-servers-as-onion-services/1798). But this [Flyig Circuit](https://flyingcircuit.com) was the perfect chance to dive into this.
 
 ### What? <a id="what"></a>
